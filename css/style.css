@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    /* Hayot aka orgatila😂😂😂 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+body > *{
+    flex-shrink: 0;
+}
+.card__blue{
+    display: flex;
+    background-color: #0066FF;
+    width: 1800px;
+    padding: 50px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 9px;
+}
+.card_content{
+    width: 950px;
+}
+.title{
+    font-size: 51px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
+}
+.card__text{
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.card__button{
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 45px;
+    font-size: 20px;
+
+}
+.card__img{
+    position: absolute;
+    right: 30px;
+    bottom: -7px;  
+}
